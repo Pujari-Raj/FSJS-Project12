@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*navbar*/
+
+header{
+    background-color: #636C79;
+}
+
+.logo img{
+    width: 110px;
+    margin-top: 60px;
+    margin-right: 340px;
+    margin-left: 55px;
+    filter: invert(1);
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin-top: 0px;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    /* margin-left: 20px;
+    margin-top: 15px; */
+    padding: 10px 40px;
+    padding-bottom: 23px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/*header-banner*/
+
+.header-banner {
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+.header-banner-img img{
+    width: 340px;
+    margin-top: 30px;
+   
+    display: block;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+.header-banner-content {
+    flex: 1;
+    margin-top: 50px;
+}
+
+.header-banner-content h1{
+    font-size: 54px;
+    color: #fff;
+}
+
+.header-banner-content p{
+    font-size: 17px;
+    color: #fff;
+    width: 45vw;
+}
+
+.input-email{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 60%;
+    border: none;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-email input{
+    border:none;
+}
+
+.input-email input::placeholder{
+    color: #636C79;
+}
+
+.input-email input:focus{
+    outline: none;
+}
+
+.fa-envelope{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.email-submit{
+    background-color: #8BB7A2;
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+}
+
+/*Banner-target*/
+
+.banner-target{
+    display: flex;
+    flex-direction: column;
+}
+
+.target {
+    margin-top: 70px;
+}
+
+.target-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.banner-stats {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-stats h3{
+    font-size: 47px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.banner-stats h5{
+    font-size: 18px;
+    color: #636C79;
+    font-weight: 400;
+}
+
+.banner-img {
+    margin-bottom: 100px;
+}
+
+.banner-img img{
+    margin-top: 50px;
+    width: 1090px;
+    margin-left: 100px;
+}
+
+/*banner-care*/
+
+.banner-care-card {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-care-card img{
+    width: 400px;
+    margin-right: 100px;
+}
+
+.banner-care-left{
+    margin-top: 4.5rem;
+    margin-left: 45px;
+}
+
+.banner-care-left h2{
+    font-size: 40px;
+}
+
+.banner-care-left p{
+    color: rgb(141, 141, 141);
+    margin: 20px 0;
+    width: 80%;
+}
+
+.btn{
+    background-color: #8BB7A2;
+    color: #fff;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    margin-left: 0;
+} 
+
+/*banner-strategy*/
+
+.Banner-strategy{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Banner-strategy img{
+    width: 400px;
+}
+
+.banner1-container-right {
+    margin-top: 4.5rem;
+}
+
+.banner1-container-right h2{
+    font-size: 40px;
+}
+
+.banner1-container-right p{
+    color: rgb(141, 141, 141);
+    margin: 10px 0;
+    width: 80%;
+}
+
+.banner-cover {
+    margin-left: 75px;
+}
+
+/*Team-Banner*/
+
+.team-banner {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin: 30px 80px;
+    margin-top: 100px;
+}
+
+.team-heading {
+    display: flex;
+    gap: 1%;
+}
+
+.team-heading h1{
+    font-size: 50px;
+}
+
+.team-heading p{
+    margin-top: 20px;
+    margin-right: 40px;
+    color: rgb(141, 141, 141);
+    width: 49vw;
+}
+
+.team-cards{
+    margin-top: 2.5rem;
+    /* margin-left: -50px; */
+    display: flex;
+    gap: 3%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-cards img{
+    width: 320px;
+}
+
+.team-cards h4{
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.team-cards p{
+    font-size: 14px;
+    color: rgb(141, 141, 141);
+    width: 27vw;
+    line-height: 1;
+}
+
+.team-banner .btn{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Footer*/
+footer .footer-navbar{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    /* margin-top: 50px; */
+    padding: 96px 57px;
+    background-color: #10181D;
+    color: #fff;
+}
+
+.footer-navbar .hr{
+    background-color: gray;
+    outline: none;
+    height: 1px;
+    width: 100%;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.footer-logo .logo {
+    filter: invert(1);
+    width: 110px;
+}
+
+.section-heading h2{
+    color: #fff;
+}
+
+footer .section-list{
+    list-style-type: none;
+    margin-bottom: 7px;
+    color: #636C79;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.about-us h2{
+    font-size: 22px;
+}
+
+.social .fa-brands{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-square-facebook, 
+.fa-square-instagram,
+.fa-square-youtube,
+.fa-linkedin
+{   
+    color: #fff;
+} 
+
+.fa-solid.fa-bars{
+    display: none;
+}
+                    
+/*MEDIA QUERIES*/
+
+
+@media only screen and (max-width: 1200px) {
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    .logo img{
+        margin-top: 20px !important;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 2rem;
+        margin-top: 20px;
+    }
+
+    nav ul li{
+        list-style-type: none;
+        padding: 0px;
+    }
+
+    nav ul li{
+        font-size: 10px;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .banner-img img{
+        width: 800px;
+        display: block;
+        margin: 0 auto;
+    }
+    .team-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5rem;
+        row-gap: 4rem;
+    }
+
+    .header-banner {
+        padding:  0 60px;
+    }
+
+    .header-banner-img img{
+        margin-top: 55px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    
+    nav ul {
+        display: none;
+    }
+
+    .fa-solid.fa-bars{
+        display: block;
+        color: #fff;
+    }
+
+    .header-banner{
+        flex-direction: column;
+    }
+
+    .header-banner-img img{
+      width: 600px;
+      margin-left: 0;
+    }
+
+    .banner-img img{
+        width: 600px;
+    }
+
+    .banner-care-card{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .banner-care-right img{
+        display: block;
+        margin: 0 auto;
+        width: 650px;
+    }
+
+    .Banner-strategy{
+        flex-direction: column;
+    }
+
+    .banner1-container-left img{
+        display: block;
+        margin: 0 auto;
+        width: 650px;
+    }
+
+    .banner1-container-right{
+        margin-left: 3.5rem;
+    }
+
+    .banner-cover{
+        margin-left: 3.5rem;
+    }
+
+    .team-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+        row-gap: 4rem;
+    }
+    .about-us{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+
+    .header-banner-img img{
+        display: none;
+    }
+
+    .header-banner{
+        flex-direction: column;
+    }
+
+    .logo img{
+        margin-right: 0px !important;
+    }
+
+
+    .header-banner-content h1{
+        font-size: 30px;
+    }
+
+    .header-banner-content p{
+        width: 75vw;
+    }
+
+    .input-email{
+        width: 100%;
+        /* display: none; */
+    }
+
+    .email-submit{
+        width: 100px;
+    }
+
+    .banner-img img{
+        width: 300px;
+    }
+    .banner-care-right img{
+        display: block;
+        margin: 0 auto;
+        margin-left: 50px;
+        width: 300px;
+    }
+    .banner1-container-left img{
+        display: block;
+        margin: 0 auto;
+        margin-left: 50px;
+        width: 300px;
+    }
+
+    .banner1-container-right h2{
+        font-size: 20px;
+    }
+
+    .banner-stats{
+        display: grid;
+    }
+
+    .banner-stats h3{
+        font-size: 22px;
+    }
+
+    .banner-stats h5{
+        text-align: center;
+    }
+
+    .banner-care-left h2{
+        font-size: 20px;
+    }
+
+    .banner-care-card{
+        margin-top: 0px !important;
+    }
+
+    .target-heading h2{
+        font-size: 30px;
+    }
+
+    .team-heading h1{
+        font-size: 20px;
+    }
+
+    .team-heading{
+        flex-direction: column;
+    }
+    .team-cards{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .email-submit{
+        /* width: 50px; */
+    }
+    .banner-care-right img{
+        display: block;
+        margin: 0 auto;
+        margin-left: 45px !important;
+        width: 200px;
+    }
+
+    .banner1-container-left img{
+        margin-left: 45px !important;
+        display: block;
+        margin: 0 auto;
+        /* margin-left: 0px !important; */
+        width: 200px;
+    }
+
+    .team-cards img{
+        width: 200px;
+    }
+
+    .footer-logo{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .input-email{
+        display: none;
+    }
+}    
